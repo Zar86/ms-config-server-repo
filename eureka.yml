@@ -1,0 +1,25 @@
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+logging:
+  level:
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF
+
+spring:
+  application:
+    name: discovery-server
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8080
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#    health:
+#      show-details: 'always'
